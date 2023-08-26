@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FEDERAL POLYTECHNIC ILARO</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="ayo.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>FEDERAL POLYTECHNIC ILARO</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h2>WELCOME TO FEDERAL POLYTECHNIC ILARO</h2>
+      <p>MAKE SURE YOUR MATRIC NUMBER AND PASSWORD ARE IN SMALL LETTERS</p>
+      <h3>Download Past Question Papers</h3>
+      <p>Enter your student ID and password to download past question papers:</p>
+      <form>
+        <label for="student-id">Student ID:</label>
+        <input type="text" id="student-id" name="student-id">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <button type="button" onclick="downloadPastPapers()">Download Past Papers</button>
+      </form>
+      <div id="pdf-download"></div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 College Name. All Rights Reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
